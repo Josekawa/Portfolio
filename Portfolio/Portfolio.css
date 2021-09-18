@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+  margin:0px;
+  text-align: center;
+  font-size: 16px;
+}
+body{
+  background: url(Rift.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.header {
+    background: rgb(0, 0, 0,0.5);
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    gap: 4em;
+
+  }
+  .header img{
+        width: auto;
+        max-height: 4em;
+    
+  }
+  .header h1{
+    text-align: left;
+    color:rgb(216, 216, 216);
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    align-self: flex-start;
+    margin-left: 1rem;
+ 
+      
+  }
+  .topnav {
+        background-color: rgb(233, 233, 233,0.2);
+        float: right;
+        margin-right: 2em;
+        justify-self: right;
+        
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .sidebar{
+    float: left;
+    margin-left: 0em;
+
+    
+  }
+  
+
+  .league{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("img/Rift.jpg");
+    background-attachment: fixed;
+    min-height: 400px;
+    color: lightblue;
+    
+  }
+  .league p{
+    height: 274px;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
